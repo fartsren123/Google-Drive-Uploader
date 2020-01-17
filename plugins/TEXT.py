@@ -9,7 +9,7 @@ drive_folder_name = "Drive"
 #MEGA_PASSWORD = "example@example.com"
 
 
-START = " Hello,<b> {} </b>. \nI'm a Drive Uploader Bot. I can upload files to your Google Drive remotely. \nTo get started click on /auth and follow the provided instructions. "
+START = " Hello,<b> {} </b>.\n \nI'm a Drive Uploader Bot. I can upload files to your Google Drive remotely. \n \nTo get started click on /auth and follow the provided instructions. "
 
 HELP = """   <b>AUTHORISE BOT</b> 
        Use  /auth Command Generate
