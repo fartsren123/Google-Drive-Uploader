@@ -2,16 +2,14 @@ import os
 import subprocess
 import wget
 
-wget.download(url)
+#wget.download(url)
 
-#def wget_dl(url):
-  #      try:
-        #    print("Downloading Started")
-            # i was facing some problem in filename That's Why i did this ,
-            #  i will fix it later :(
+def wget_dl(url):
+        try:
+            print("Downloading Started")
 
-          #  filename = os.path.basename(url)
-           # output = subprocess.check_output("wget '--output-document' '{}' '{}' ".format(filename , url), stderr=subprocess.STDOUT, shell=True)
+           filename = os.path.basename(url)
+           output = subprocess.check_output("wget '--output-document' '{}' '{}' ".format(filename , url), stderr=subprocess.STDOUT, shell=True)
        
             print("Downloading Complete",filename)
             return filename
