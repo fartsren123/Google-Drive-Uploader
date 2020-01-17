@@ -1,6 +1,5 @@
 import os
 import subprocess
-import wget
 
 #wget.download(url)
 
