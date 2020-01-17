@@ -69,3 +69,5 @@ UPDATE = """ <b> Update  on  27.07.2019</b>
             *  Mega links (only files)
             
             + More are in way:) """
+
+ABOUT = " Hello,<b> {} </b>.\n \nI'm a Drive Uploader Bot. I can upload files to your Google Drive remotely. \n \nTo get started click on /auth and follow the provided instructions. "
