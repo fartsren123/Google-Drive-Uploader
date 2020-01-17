@@ -9,13 +9,7 @@ def wget_dl(url):
 
             filename = os.path.basename(url)
             output = subprocess.check_output("wget '--output-document' '{}' '{}' ".format(filename , url), stderr=subprocess.STDOUT, shell=True)
-#
-
-#def bar_custom(current, total, width=80):
-    print("Downloading: %d%% [%d / %d] bytes" % (current / total * 100, current, total))
-#wget.download('http://download.geonames.org/export/zip/US.zip', bar=bar_custom)
-
-#          
+       
             print("Downloading Complete",filename)
             return filename
         except Exception as e:
