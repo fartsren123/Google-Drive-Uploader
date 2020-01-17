@@ -9,8 +9,7 @@ def wget_dl(url):
 
             filename = os.path.basename(url)
             output = subprocess.check_output("wget '--output-document' '{}' '{}' ".format(filename , url), stderr=subprocess.STDOUT, shell=True)
-            def update_progress(progress):
-    print '\r[{0}] {1}%'.format('#'*(progress/10), progress)
+            
             print("Downloading Complete",filename)
             return filename
         except Exception as e:
