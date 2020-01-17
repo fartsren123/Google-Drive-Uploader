@@ -6,12 +6,12 @@ drive_folder_name = "Mitsuha's DriveBot"
 
 START = " Hello,<b> {} </b>.\n \nI'm a Drive Uploader Bot. I can upload files to your Google Drive remotely. \n \nTo get started click on /auth and follow the provided instructions. "
 
-HELP = """   <b>Authorise Bot: </b> \n
-       Use <b> /auth </b>Command Generate
-       Your Google Drive Token And 
-       Send It To Bot  
-<b> To change Google Drive Account :</b> \n
-        Use /revoke command to get new Token from different Drive Account.          
+HELP = """<b>Authorise Bot: </b> \n
+Use <b> /auth </b>command to Generate Google Drive Auth Token. Send the the generated token to the Bot for authorization.  \n\n
+<b>To change Google Drive Account :</b> \n
+Use /revoke command to get new Token from different Drive Account. \n\n   
+<b>Contact Me :  </b>\n 
+@TGBotFather 
         """
 PROCESSING = "Verifying whether Download Link is Valid...!!"
 DOWN_TWO = True
